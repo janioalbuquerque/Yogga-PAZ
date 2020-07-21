@@ -7,3 +7,15 @@
 html, body {
 	height: 100%;
 }
+
+/*ESTILOS DA NAVBAR*/
+
+.navbar {
+	background-color: #795548 !important;
+	color: white;
+}
+
+.font-1 {
+	font-size: 20px;
+	
+}
