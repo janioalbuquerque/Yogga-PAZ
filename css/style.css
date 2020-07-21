@@ -8,14 +8,90 @@ html, body {
 	height: 100%;
 }
 
-/*ESTILOS DA NAVBAR*/
+/*AQUI COMEÇA OS ESTILOS DA NAVBAR*/
 
 .navbar {
-	background-color: #795548 !important;
+	background-color: rgba(121, 85, 72,0.7); ;
 	color: white;
+	box-shadow: 1px 5px 5px black;
 }
 
 .font-1 {
 	font-size: 20px;
-	
+
+}
+
+/*AQUI TERMINA OS ESTILOS DA NAVBAR*/
+
+/*AQUI COMEÇA OS ESTILOS DA SECTION-1*/
+
+.section-1 {
+	background-image: url('../img/BG-S1.jpg');
+	background-size: 100% 100%;
+	min-height: 90%;
+}
+
+.section 1 .row-cols-2 {
+	height: 10% ; 
+}
+
+.section-1 .card-1 {
+	margin-top: 10%;
+	background-color: rgba(255,255,255,0.3);
+	border-radius: 15px; 
+}
+
+.section-1 .card-1 p {
+
+	text-align: justify;
+}
+
+.section-1 .card-2 img {
+	position: relative;
+	width: 60%;
+	margin-left: 36%;
+	margin-top: 2%;
+	opacity: 0.1;
+	z-index: 2;
+}
+
+.section-1 .card-2 .list {
+	width: 80%;
+	min-height: 65%;
+	z-index: 1;
+	position: absolute;
+	background-color: rgba(120,120,120,0.5);
+	margin-top: 10%;
+	right: 100px;
+	border-radius: 10px; 
+}
+
+.section-1 .card-2 .list ul {
+	position: relative;
+	font-size: 24px;
+	left: 50px;
+	top: 20px;
+}
+
+.chamada {
+	margin-top: 0;
+	text-align: center;
+	color: white;
+}
+
+.chamada img {
+	width: 150px;
+}
+
+.chamada h1 {
+	font-size: 100px;
+
+}
+
+.chamada h1 span {
+	color: #5e5e5e;
+}
+
+div.divisao_section {
+	text-align: center;
 }
