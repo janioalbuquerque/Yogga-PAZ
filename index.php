@@ -49,9 +49,9 @@
 
 	<div class="container-fluid section-1">
 		
-		  <div class="row row-cols-2">
-		    <div class="col-6">
-		    	<div class="card  card-1 ">
+		  <div class="row">
+		    <div class="col6 ">
+		    	<div class="card  card-1  ">
 				  <div class="card-body">
 				    <h2>O QUE É YOGA?</h2>
 				    <p class="mt-3">Uma aula ou prática de yoga (como é comumente dito) não é uma pílula ou medicamento que se utiliza por certo tempo e depois do uso revela uma ‘cura’ ao praticante. Ela é similar às sessões de psicoterapia, pois, a prática de yoga ocorre de forma processual e à medida que vai se praticando (como uma caminhada no parque, hábito alimentar mais saudável), aprendendo as diversas posturas que o corpo é capaz de fazer (compreendendo as diversas formas possíveis de pensar sobre uma situação, na terapia), e formas de respirar (adquirindo novos comportamentos e posturas de acordo com a especificidade cognitiva) o praticante adquire uma nova forma de pensar e focar, adquirindo a capacidade de meditar não só na academia ou nos espaços (processo de alta da terapia, em que o terapeuta trabalhou com o paciente dele ser o seu próprio terapeuta), mas em qualquer lugar que queira meditar.</p>
@@ -59,8 +59,9 @@
 				</div><!--card-1-->
 		    </div>
 
-		    <div class="col-6 card-2 ">
-		    	<div class="avatar-section1">
+		    <div class="col6">
+		    <div class=" card-2 ">
+		    	
 		    		 <div class="card-body list ">
 				    <h3>Benefícios do Yoga?</h3>
 				    <ul>
@@ -74,28 +75,37 @@
 				    </ul>
 				  </div>
 
+				   
 
 		    	<img class="" src="img/avatar-section1.png">
+
 		    	
-		    	</div><!--avatar-section1-->
+		    	
+		    	 
+		    	</div>
+		    </div>
+		    
 
 		    
-		    
+		  
 
 		    
 		  </div>
 
-		  </div>
+
 		    <div class="chamada">
 		    	<img src="img/icon-logo.svg">
 		    <h1>Yogga<span >&PAZ</span></h1>
 		    <h4 style="color: #ccc;">Cuidando da sua saúde mental e corporal.</h4 style="color: #ccc;">
 		    </div><!--chamada-->
 		    <div style="text-align: center; position: relative; bottom: -25px;"><svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-arrow-down-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 5a.5.5 0 0 0-1 0v4.793L5.354 7.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 9.793V5z"/>
-</svg></div>
+  			<path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 5a.5.5 0 0 0-1 0v4.793L5.354 7.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 9.793V5z"/>
+			</svg></div>
+
+		  </div>
+		    
 		
-	</div>
+	
 
 	<!--AQUI TERMINA A SESSÃO-1-->
 

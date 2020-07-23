@@ -2,10 +2,16 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+
+
 }
 
 html, body {
 	height: 100%;
+}
+
+.clear {
+	clear: both;
 }
 
 /*AQUI COMEÇA OS ESTILOS DA NAVBAR*/
@@ -28,40 +34,52 @@ html, body {
 .section-1 {
 	background-image: url('../img/BG-S1.jpg');
 	background-size: 100% 100%;
-	min-height: 90%;
+	
 }
 
-.section 1 .row-cols-2 {
-	height: 10% ; 
+.section-1 .col6 {
+	float: left;
+	width: 50%;
+	padding: 3%;
+
 }
+
 
 .section-1 .card-1 {
 	margin-top: 10%;
 	background-color: rgba(255,255,255,0.3);
 	border-radius: 15px; 
+
 }
 
 .section-1 .card-1 p {
-
 	text-align: justify;
 }
+
+.section-1 .card-2 {
+	width: 50%;
+	float: left;
+
+
+}
+
 
 .section-1 .card-2 img {
 	position: relative;
 	width: 60%;
-	margin-left: 36%;
-	margin-top: 2%;
+	left: 100%;
+	margin-top: 35%;
 	opacity: 0.1;
 	z-index: 2;
 }
 
 .section-1 .card-2 .list {
-	width: 80%;
-	min-height: 65%;
+	width: 40%;
+	float: left;
 	z-index: 1;
 	position: absolute;
 	background-color: rgba(120,120,120,0.5);
-	margin-top: 10%;
+	margin-top: 5%;
 	right: 100px;
 	border-radius: 10px; 
 }
@@ -71,10 +89,10 @@ html, body {
 	font-size: 24px;
 	left: 50px;
 	top: 20px;
+
 }
 
 .chamada {
-	margin-top: 0;
 	text-align: center;
 	color: white;
 }
@@ -84,7 +102,8 @@ html, body {
 }
 
 .chamada h1 {
-	font-size: 100px;
+	font-size: 500%;
+	
 
 }
 
@@ -95,3 +114,36 @@ html, body {
 div.divisao_section {
 	text-align: center;
 }
+
+
+/*AQUI COMEÇA AS MEDIAS QUERYS*/
+
+@media screen and (max-width: 1100px){
+
+	.section-1 .col6,
+	.section-1 .card-2 {
+		
+		width: 100%;
+	}
+
+	.section-1 .card-1 {
+		width: 80%;
+		
+		margin: 0 auto;
+	}
+
+	.section-1 .card-2 .list {
+		position: relative;
+		left: 10%;
+		display: block;
+		width: 80%;
+		
+	}
+
+	.section-1 .card-2 img {
+		display: none;
+	}
+	
+
+}
+
