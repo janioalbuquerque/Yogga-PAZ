@@ -98,9 +98,7 @@
 		    <h1>Yogga<span >&PAZ</span></h1>
 		    <h4 style="color: #ccc;">Cuidando da sua saúde mental e corporal.</h4 style="color: #ccc;">
 		    </div><!--chamada-->
-		    <div style="text-align: center; position: relative; bottom: -25px;"><svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-arrow-down-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  			<path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 5a.5.5 0 0 0-1 0v4.793L5.354 7.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 9.793V5z"/>
-			</svg></div>
+		    
 
 		  </div>
 		    
@@ -108,6 +106,53 @@
 	
 
 	<!--AQUI TERMINA A SESSÃO-1-->
+
+	<!--AQUI COMEÇA A SESSÃO-2-->
+	
+	<div class="section-2">
+		<div class="fundo"></div><!--fundo-->
+
+		<div class="row">
+			
+			<div class="card" style="width: 18rem;">
+			  <img src="img/card1.jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+			    <h5 class="card-title">Roberta, 30 anos, médica</h5>
+			    <p class="card-text">Comecei a prática de yoga na adolescência com auxílio do meu pai, mas só depois de conhecer a academia <strong>Yogga&PAZ</strong> que tive mais disciplina e senti efeitos duradouros. Hoje, quase dois anos depois, sinto-me mais tranquila, confiante e percebo que transmito essa energia para meu convívio, tanto familiar quanto profissional.</p>
+			   
+			  </div>
+			</div>
+
+			<div class="card" style="width: 18rem;">
+			  <img  src="img/card2.jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+			    <h5 class="card-title">Mari, 50 anos, Professora</h5>
+			    <p class="card-text">Com essa agitação do dia a dia o yoga é uma forma bastante eficiente para ter equilíbrio mental, físico e espiritual. Assim, quando percebi que não estava mais dando conta, busquei adotar o yoga na minha vida. Passei uma fase bastante difícil; agora, estou muito feliz por ter conseguido superar as minhas dificuldades e ter a possibilidade de saborear as minhas conquistas!</p>
+			   
+			  </div>
+			</div>
+
+			<div class="card" style="width: 18rem;">
+			  <img src="img/card3.jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+			    <h5 class="card-title">Daniela, 40 anos, analista de sistemas</h5>
+			    <p class="card-text">Autoconhecimento para superar seus limites, aumento de flexibilidade, interiorizar e silenciar a mente são alguns dos benefícios colhidos da prática. Melhorar o seu mundo interno e externo é, sem dúvida, o melhor de tudo.</p>
+			    
+			  </div>
+			</div>
+			
+		</div><!--row-->
+
+		<form style="width: 40%; margin: 0 auto;">
+		  <div class="form-group">
+		    <h3>Envie-nos seu e-mail para saber mais!</h3>
+		    <input style="background-color: black;" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+		   
+		  </div>
+		 
+		  <button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+	</div><!--section-2-->
 
 
 
