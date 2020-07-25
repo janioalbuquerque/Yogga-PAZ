@@ -114,8 +114,8 @@
 
 		<div class="row">
 			
-			<div class="card" style="width: 18rem;">
-			  <img src="img/card1.jpg" class="card-img-top" alt="...">
+			<div class="card" style="width: 25rem;">
+			  <img style="width: 12rem" src="img/card1.jpg" class="card-img-top" alt="...">
 			  <div class="card-body">
 			    <h5 class="card-title">Roberta, 30 anos, médica</h5>
 			    <p class="card-text">Comecei a prática de yoga na adolescência com auxílio do meu pai, mas só depois de conhecer a academia <strong>Yogga&PAZ</strong> que tive mais disciplina e senti efeitos duradouros. Hoje, quase dois anos depois, sinto-me mais tranquila, confiante e percebo que transmito essa energia para meu convívio, tanto familiar quanto profissional.</p>
@@ -123,8 +123,8 @@
 			  </div>
 			</div>
 
-			<div class="card" style="width: 18rem;">
-			  <img  src="img/card2.jpg" class="card-img-top" alt="...">
+			<div class="card" style="width: 25rem;">
+			  <img style="width: 12rem" src="img/card2.jpg" class="card-img-top" alt="...">
 			  <div class="card-body">
 			    <h5 class="card-title">Mari, 50 anos, Professora</h5>
 			    <p class="card-text">Com essa agitação do dia a dia o yoga é uma forma bastante eficiente para ter equilíbrio mental, físico e espiritual. Assim, quando percebi que não estava mais dando conta, busquei adotar o yoga na minha vida. Passei uma fase bastante difícil; agora, estou muito feliz por ter conseguido superar as minhas dificuldades e ter a possibilidade de saborear as minhas conquistas!</p>
@@ -132,8 +132,8 @@
 			  </div>
 			</div>
 
-			<div class="card" style="width: 18rem;">
-			  <img src="img/card3.jpg" class="card-img-top" alt="...">
+			<div class="card" style="width: 25rem;">
+			  <img style="width: 12rem" src="img/card3.jpg" class="card-img-top" alt="...">
 			  <div class="card-body">
 			    <h5 class="card-title">Daniela, 40 anos, analista de sistemas</h5>
 			    <p class="card-text">Autoconhecimento para superar seus limites, aumento de flexibilidade, interiorizar e silenciar a mente são alguns dos benefícios colhidos da prática. Melhorar o seu mundo interno e externo é, sem dúvida, o melhor de tudo.</p>
@@ -143,16 +143,166 @@
 			
 		</div><!--row-->
 
+		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+		    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img src="img/img-1.jpg" class="d-block" alt="...">
+		      <div class="carousel-caption d-none d-md-block">
+		        <h5>First slide label</h5>
+		        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+		      </div>
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/img-2.jpg" class="d-block" alt="...">
+		      <div class="carousel-caption d-none d-md-block">
+		        <h5>Second slide label</h5>
+		        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		      </div>
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/img-3.jpg" class="d-block" alt="...">
+		      <div class="carousel-caption d-none d-md-block">
+		        <h5>Third slide label</h5>
+		        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+		      </div>
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/img-4.jpg" class="d-block" alt="...">
+		      <div class="carousel-caption d-none d-md-block">
+		        <h5>Third slide label</h5>
+		        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+		      </div>
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/img-5.jpg" class="d-block" alt="...">
+		      <div class="carousel-caption d-none d-md-block">
+		        <h5>Third slide label</h5>
+		        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+		      </div>
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/img-6.jpg" class="d-block" alt="...">
+		      <div class="carousel-caption d-none d-md-block">
+		        <h5>Third slide label</h5>
+		        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+		      </div>
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+
 		<form style="width: 40%; margin: 0 auto;">
 		  <div class="form-group">
-		    <h3>Envie-nos seu e-mail para saber mais!</h3>
-		    <input style="background-color: black;" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+		    <h2 style="margin-bottom: 20px;">Envie-nos seu e-mail para saber mais!</h2>
+		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 		   
 		  </div>
 		 
-		  <button type="submit" class="btn btn-primary">Submit</button>
+		  <button type="submit" class="btn  text-white bg-dark">Enviar <svg  width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-right-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+</svg></button>
 		</form>
 	</div><!--section-2-->
+
+	<!--AQUI COMEÇA O FOOTER-->
+
+		<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">Yogga&PAZ</h5>
+        <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+          <li>
+            <a href="#!">Link 4</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Link 1</a>
+          </li>
+          <li>
+            <a href="#!">Link 2</a>
+          </li>
+          <li>
+            <a href="#!">Link 3</a>
+          </li>
+          <li>
+            <a href="#!">Link 4</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> Janio Albuquerque</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+	<!--AQUI TERMINA O FOOTER-->
 
 
 

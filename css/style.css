@@ -145,21 +145,47 @@ div.fundo {
 	
 }
 
-.section-2 .card-deck {
-	width: 100%;
-}
+
 
 .section-2 .card {
 	margin: 60px auto;
-
+	margin-top: 200px;
 	text-align: justify;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.8);
 }
 
 .section-2 .card img.card-img-top {
 	border-radius: 150px;
 }
 
+.section-2 form {
+	text-align: center;
+	position: relative;
+	color: white;
+
+
+}
+
+.section-2 .carousel {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.section-2 .carousel .carousel-inner .carousel-item {
+	transition: 1s;
+	width: 100%;
+	height: 100%
+}
+
+.section-2 .carousel .carousel-inner .carousel-item img {
+	margin: 0 auto;
+	width: 60%;
+	
+}
+
+.section-2 button {
+	margin-bottom: 100px;
+}
 
 
 
@@ -168,6 +194,14 @@ div.fundo {
 
 
 /*AQUI TERMINA OS ESTILOS DA SECTION-2*/
+
+/*AQUI COMEÇA OS ESTILOS DO FOOTER*/
+
+footer {
+
+}
+
+/*AQUI TERMINA OS ESTILOS DO FOOTER*/
 
 
 
