@@ -1,239 +1,284 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Open Sans', sans-serif;
+		}
+
+		html,body {
+			height: 100%;
+		}
+
+		/*AQUI COMEÇA O ESTILO DA NAVBAR*/
+
+		nav.menu {
+			width: 100%;
+			height: 50px;
+			background-color: #9c6832;
+			position: relative;
+			z-index: 2;
+			
+		}
+
+		.menu .logo {
+			float: right;
+			font-size: 25px;
+			padding: 8px;
+			position: relative;
+			right: 25px;
+			color: white;
+		}
+		.menu .logo:hover {
+			background-color: #9c6832;
+			font-weight: bold;
+
+		}
+
+		.menu .logo span {
+			color: black;
+		}
+
+		.menu ul {
+			list-style: none;
+			position: relative;
+		}
+
+		.menu ul li {
+			width: 150px;
+			float: left;
+		}
+
+		.menu a {
+			padding: 13px;
+			display: block;
+			text-decoration: none;
+			text-align: center;
+			background-color: #9c6832;
+			color: black;
+
+		}
+
+		.menu ul ul {
+			position: absolute;
+			visibility: hidden;
+		}
+
+		.menu ul li:hover ul {
+			visibility: visible;
+		}
+
+		.menu a:hover {
+			background-color: #80572e;
+			
+		}
+
+		.menu ul ul li {
+			float: none;
+			border-bottom: 1px solid black;
+		}
+
+		.menu ul ul li a {
+			background-color: #9c6832;
+		}
+
+		label[for=bt_menu] {
+			padding: 5px;
+			background-color: #9c6832;
+			color: white;
+			font-family: "Arial";
+			text-align: center;
+			font-size: 30px;
+			cursor: pointer;
+			width: 50px;
+			height: 50px;
+			display: none;
+		}
+
+		#bt_menu{
+			display: none;
+		}
+
+
+		/*AQUI TERMINA O ESTILO DA NAVBAR*/
+
+		/*AQUI COMEÇA O ESTILO DA SESSÃO 1*/
+
+		.section-1 {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			background-image: url('../img/BG-S1.jpg');
+			background-size: 100% 100%;
+			z-index: 1;
+
+		}
+
+		.section-1 .container {
+			width: 100%;
+			height: 100%;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
 
+		.section-1 .container .item-container-1 {
+			position: relative;
+			top: 10%;
+			width: 50%;
+			height: 60%;
+			
+			
 
-}
+		}
 
-html, body {
-	height: 100%;
-}
+		.section-1 .container .item-container-1 .card {
+			background-color: rgba(255,255,255,0.5);
+			width: 80%;
+			height: 80%;
+			margin-left: 10%;
+			margin-top: 5%;
+			border-radius: 15px;
+			padding: 5%;
 
-.clear {
-	clear: both;
-}
+		}
 
-/*AQUI COMEÇA OS ESTILOS DA NAVBAR*/
+		.section-1 .container .item-container-1 .card p {
+			margin-top: 15px;
+			font-size: 18px;
+		}
 
-.navbar {
-	background-color: rgba(121, 85, 72,0.7); ;
-	color: white;
-	box-shadow: 1px 5px 5px black;
-}
+		.section-1 .container .item-container-2 {
+			position: relative;
+			top: 10%;
+			width: 50%;
+			height: 60%;
+			
+		}
 
-.font-1 {
-	font-size: 20px;
 
-}
+		.section-1 .container .item-container-2 .card {
+			background-color: rgba(0,0,0,0.3);
+			width: 80%;
+			height: 80%;
+			margin-left: 10%;
+			margin-top: 5%;
+			border-radius: 15px;
+			padding: 5%;
+			
+		}
 
-/*AQUI TERMINA OS ESTILOS DA NAVBAR*/
+		.section-1 .container .item-container-2 .card img {
+			float: right;
+			width: 20%;
+		}
 
-/*AQUI COMEÇA OS ESTILOS DA SECTION-1*/
+		.section-1 .container .item-container-2 .card ul {
+			margin-top: 15px;
+			
+		}
 
-.section-1 {
-	background-image: url('../img/BG-S1.jpg');
-	background-size: 100% 100%;
+		.section-1 .container .item-container-2 .card ul li {
+			font-size: 22px;
+			margin-left: 60px;
+		}
 
-	
-}
 
-.section-1 .col6 {
-	float: left;
-	width: 50%;
-	padding: 3%;
+		.chamada {
+			margin: 0 auto;
+			position: relative;
+			
+			top: 1%;
+			text-align: center;
+			color: white;
+			
+		}
 
-}
+		.chamada img {
+			width: 150px;
 
+		}
 
-.section-1 .card-1 {
-	margin-top: 10%;
-	background-color: rgba(255,255,255,0.3);
-	border-radius: 15px; 
+		.chamada h1 {
+			font-size: 500%;
+			
 
-}
+		}
 
-.section-1 .card-1 p {
-	text-align: justify;
-}
+		.chamada h1 span {
+			color: #5e5e5e;
+		}
 
-.section-1 .card-2 {
-	width: 50%;
-	float: left;
+		.chamada h4 {
+			margin-bottom: 0;
+		}
 
 
-}
+		/*AQUI TERMINA O ESTILO DA SESSÃO 1*/
 
 
-.section-1 .card-2 img {
-	position: relative;
-	width: 60%;
-	left: 100%;
-	margin-top: 35%;
-	opacity: 0.1;
-	z-index: 2;
-}
 
-.section-1 .card-2 .list {
-	width: 40%;
-	float: left;
-	z-index: 1;
-	position: absolute;
-	background-color: rgba(120,120,120,0.5);
-	margin-top: 5%;
-	right: 100px;
-	border-radius: 10px; 
-}
 
-.section-1 .card-2 .list ul {
-	position: relative;
-	font-size: 24px;
-	left: 50px;
-	top: 20px;
 
-}
 
-.chamada {
-	text-align: center;
-	color: white;
-}
+		/*AQUI COMEÇA AS MEDIAS QUERYS*/
 
-.chamada img {
-	width: 150px;
-}
+		@media(max-width: 930px){
+			.section-1 .container .item-container-1,
+			.section-1 .container .item-container-2 {
+				width: 100%;
+			}
 
-.chamada h1 {
-	font-size: 500%;
-	
+			.section-1 {
+				z-index: 1
+				background-size: 100%;
 
-}
+			}	
 
-.chamada h1 span {
-	color: #5e5e5e;
-}
+			.chamada {
+				z-index: 2;
+			}		
+		}
 
-.chamada h4 {
-	margin-bottom: 0;
-}
+		@media(max-width: 800px){
 
+			/*AQUI COMEÇA O ESTILO DA NAVBAR*/
 
+			#bt_menu:checked ~ .menu {
+				margin-left: 0;
+			}
 
 
-/*AQUI TERMINA OS ESTILOS DA SECTION-1*/
 
-/*AQUI COMEÇA OS ESTILOS DA SECTION-2*/
+			label[for=bt_menu] {
+				display: block;
+			}
 
 
-div.fundo {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-		
-	top: 0;
-	left: 0;
-	background-color: rgba(20,20,20,0.5);
-}
-.section-2 {
-	width: 100%;
-	min-height: 700px;
-	position: relative;
-	background-image: url(../img/BG-S2.jpg);
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
 
-	
-}
+			.menu {
+				margin-top: 5px;
+				margin-left: -100%;
+				transition: 0.4s;
+			}
 
+			.menu ul li {
+				width: 100%;
+				float: none;
+			}
 
+			.menu ul ul {
+				position: static;
+				overflow: hidden;
+				max-height: 0;
+				transition: all 0.4s;
+			}
 
-.section-2 .card {
-	margin: 60px auto;
-	margin-top: 200px;
-	text-align: justify;
-	background-color: rgba(255,255,255,0.8);
-}
+			.menu ul li:hover ul {
+				height: auto;
+				max-height: 200px;
+			}
 
-.section-2 .card img.card-img-top {
-	border-radius: 150px;
-}
+			/*AQUI TERMINA O ESTILO DA NAVBAR*/
 
-.section-2 form {
-	text-align: center;
-	position: relative;
-	color: white;
-
-
-}
-
-.section-2 .carousel {
-	margin-top: 100px;
-	margin-bottom: 100px;
-}
-
-.section-2 .carousel .carousel-inner .carousel-item {
-	transition: 1s;
-	width: 100%;
-	height: 100%
-}
-
-.section-2 .carousel .carousel-inner .carousel-item img {
-	margin: 0 auto;
-	width: 60%;
-	
-}
-
-.section-2 button {
-	margin-bottom: 100px;
-}
-
-
-
-
-
-
-
-/*AQUI TERMINA OS ESTILOS DA SECTION-2*/
-
-/*AQUI COMEÇA OS ESTILOS DO FOOTER*/
-
-footer {
-
-}
-
-/*AQUI TERMINA OS ESTILOS DO FOOTER*/
-
-
-
-
-/*AQUI COMEÇA AS MEDIAS QUERYS*/
-
-@media screen and (max-width: 1100px){
-
-	.section-1 .col6,
-	.section-1 .card-2 {
-		
-		width: 100%;
-	}
-
-	.section-1 .card-1 {
-		width: 80%;
-		
-		margin: 0 auto;
-	}
-
-	.section-1 .card-2 .list {
-		position: relative;
-		left: 10%;
-		display: block;
-		width: 80%;
-		
-	}
-
-	.section-1 .card-2 img {
-		display: none;
-	}
-	
-
-}
-
+			
+		}
