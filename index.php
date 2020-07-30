@@ -13,7 +13,7 @@
 	<input id="bt_menu" type="checkbox" name="">
 	<label for="bt_menu">&#9776;</label>
 
-	<nav class="menu">
+	<div><nav class="menu">
 		
 		<a class="logo" href="">Yogga<span>&PAZZ</span></a>
 		
@@ -34,7 +34,8 @@
 			</li>
 			<li><a href="">Contatos</a></li>
 		</ul>
-	</nav>
+	</nav></div>
+
 
 	<!--AQUI TERMINA A NAVBAR-->
 
@@ -85,6 +86,36 @@
 
 
 	<!--AQUI TERMINA A SESSÃO 1-->
+
+	<!--AQUI COMEÇA A SESSÃO 2-->
+
+	<section class="section-2">
+		<div class="container">
+			
+			<form>
+				<h1>Entre em contato conosco</h1>
+
+				<p>Nome</p>
+				<input type="text" name="nome" placeholder="Seu nome aqui..">
+				<p>E-mail</p>
+				<input type="email" name="nome" placeholder="Coloque um E-mail valido..">
+				<p>Sua Mensagem</p>
+				<textarea></textarea>
+
+
+
+			</form>
+			
+
+		</div><!--container-->   
+		    
+
+	</section><!--section-2-->
+
+
+
+
+	<!--AQUI TERMINA A SESSÃO 2-->
 
 
 

@@ -14,7 +14,7 @@
 		nav.menu {
 			width: 100%;
 			height: 50px;
-			background-color: #9c6832;
+			background-color: #3d0e07;
 			position: relative;
 			z-index: 2;
 			
@@ -29,13 +29,13 @@
 			color: white;
 		}
 		.menu .logo:hover {
-			background-color: #9c6832;
+			background-color: #3d0e07;
 			font-weight: bold;
 
 		}
 
 		.menu .logo span {
-			color: black;
+			color: #999;
 		}
 
 		.menu ul {
@@ -53,8 +53,8 @@
 			display: block;
 			text-decoration: none;
 			text-align: center;
-			background-color: #9c6832;
-			color: black;
+			background-color: #3d0e07;
+			color: white;
 
 		}
 
@@ -68,22 +68,24 @@
 		}
 
 		.menu a:hover {
-			background-color: #80572e;
+			background-color: #5e2219;
 			
 		}
 
 		.menu ul ul li {
 			float: none;
-			border-bottom: 1px solid black;
+			border-bottom: 1px solid white;
 		}
 
 		.menu ul ul li a {
-			background-color: #9c6832;
+			background-color: #3d0e07;
+
 		}
 
 		label[for=bt_menu] {
+			position: absolute;
 			padding: 5px;
-			background-color: #9c6832;
+			background-color: #3d0e07;;
 			color: white;
 			font-family: "Arial";
 			text-align: center;
@@ -92,10 +94,15 @@
 			width: 50px;
 			height: 50px;
 			display: none;
+			z-index: 99;
+			top: 0;
+			border-radius: 2px;
 		}
 
 		#bt_menu{
+
 			display: none;
+			
 		}
 
 
@@ -104,12 +111,12 @@
 		/*AQUI COMEÇA O ESTILO DA SESSÃO 1*/
 
 		.section-1 {
-			position: relative;
+			
 			width: 100%;
 			height: 100%;
 			background-image: url('../img/BG-S1.jpg');
 			background-size: 100% 100%;
-			z-index: 1;
+			
 
 		}
 
@@ -215,9 +222,42 @@
 
 		/*AQUI TERMINA O ESTILO DA SESSÃO 1*/
 
+		/*AQUI COMEÇA O ESTILO DA SESSÃO 2*/
+
+		.section-2 {
+			
+			width: 100%;
+			height: 100%;
+			background-image: url('../img/BG-S2.jpg');
+			background-size: 100% 100%;
+			
+
+		}
+
+		.section-2 .container {
+			width: 100%;
+			height: 100%;
+		}
+
+		.section-2 form {
+			width: 28%;
+			height: 60%;
+			min-width: 400px;
+			background-color: white;
+			position: relative;
+			margin: 0 auto;
+			top: 18%;
+			border-radius: 10px;
+			padding: 10px;
+		}
+
+		.section-2 form  h1{
+
+		}
 
 
 
+		/*AQUI TERMINA O ESTILO DA SESSÃO 2*/
 
 
 		/*AQUI COMEÇA AS MEDIAS QUERYS*/
@@ -243,22 +283,36 @@
 
 			/*AQUI COMEÇA O ESTILO DA NAVBAR*/
 
-			#bt_menu:checked ~ .menu {
-				margin-left: 0;
+			#bt_menu:checked ~ div nav.menu {
+				position: relative;
+				left: 0;
+
+
+				
 			}
 
 
 
 			label[for=bt_menu] {
 				display: block;
+				position: absolute;
+
 			}
 
 
 
 			.menu {
-				margin-top: 5px;
-				margin-left: -100%;
+				
+				left: -100%;
 				transition: 0.4s;
+
+				
+			}
+
+			.menu .logo {
+				
+				display: none;
+
 			}
 
 			.menu ul li {
@@ -280,5 +334,27 @@
 
 			/*AQUI TERMINA O ESTILO DA NAVBAR*/
 
+			.section-1 {
+				position: relative;
+				top: -50px;
+				height: 200%;
+			}
+
+			.section-1 .container {		
+				height: 50%;
 			
+			}
+
+			.section-1 .container .item-container-1 .card {
+				background-color: rgba(255,255,255,0.5);
+			}
+
+			.section-1 .chamada {
+				top: 50px;
+			}
+
+			.section-2 {
+				position: relative;
+				top: -50px;
+			}
 		}
