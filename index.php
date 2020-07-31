@@ -3,6 +3,7 @@
 <head>
 	<title>Yogga&PAZ</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
 </head>
@@ -44,6 +45,7 @@
 	<section class="section-1">
 		<div class="container">
 			<div class="item-container-1">
+				<h1>Yogga<span >&PAZ</span></h1>
 				<div class="card">
 					 <h2>O QUE É YOGA?</h2>
 				    <p class="mt-3">Uma aula ou prática de yoga (como é comumente dito) não é uma pílula ou medicamento que se utiliza por certo tempo e depois do uso revela uma ‘cura’ ao praticante. Ela é similar às sessões de psicoterapia, pois, a prática de yoga ocorre de forma processual e à medida que vai se praticando (como uma caminhada no parque, hábito alimentar mais saudável), aprendendo as diversas posturas que o corpo é capaz de fazer.</p>
