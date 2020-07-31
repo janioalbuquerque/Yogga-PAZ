@@ -102,7 +102,9 @@
 				<p>E-mail</p>
 				<input type="email" name="nome" placeholder="Coloque um E-mail valido..">
 				<p>Sua Mensagem</p>
-				<textarea></textarea>
+				<textarea name="mensagem" placeholder="Escreva algo aqui.."></textarea>
+
+				<input type="submit" name="acao">
 
 
 
@@ -118,6 +120,65 @@
 
 
 	<!--AQUI TERMINA A SESSÃO 2-->
+
+	<!--AQUI COMEÇA A SESSÃO 3-->
+
+	<section class="section-3">
+		<div class="container">
+
+			<div class="card">
+				<img src="img/card1.jpg">
+				<h2>Roberta, 30 anos, médica</h2>
+				<p>Comecei a prática de yoga na adolescência com auxílio do meu pai, mas só depois de conhecer o sistema Vidya que tive mais disciplina e senti efeitos duradouros. Hoje, quase dois anos depois, sinto-me mais tranquila, confiante e percebo que transmito essa energia para meu convívio, tanto familiar quanto profissional.</p>
+			</div>
+				
+			<div class="card">
+				<img src="img/card2.jpg">
+				<h2>Mari, 50 anos, Empresaria</h2>
+				<p>Com essa agitação do dia a dia o yoga é uma forma bastante eficiente para ter equilíbrio mental, físico e espiritual. Assim, quando percebi que não estava mais dando conta, busquei adotar o yoga na minha vida. Passei uma fase bastante difícil; agora, estou muito feliz por ter conseguido superar as minhas dificuldades e ter a possibilidade de saborear as minhas conquistas!</p>
+			</div>
+
+			<div class="card">
+				<img src="img/card3.jpg">
+				<h2>Daniela, 40 anos, analista de sistemas</h2>
+				<p>Autoconhecimento para superar seus limites, aumento de flexibilidade, interiorizar e silenciar a mente são alguns dos benefícios colhidos da prática. Melhorar o seu mundo interno e externo é, sem dúvida, o melhor de tudo.</p>
+			</div>
+			
+
+		</div><!--container-->   
+	</section><!--section-3-->
+
+
+
+
+	<!--AQUI TERMINA A SESSÃO 3-->
+
+	<!--AQUI COMEÇA O FOOTER-->
+
+
+	<footer>
+		<div class="container">
+			<div class="item-footer-1">
+
+				
+
+				a
+				
+			</div><!--item-footer-1-->
+
+			<div class="item-footer-2">
+				wef
+			</div><!--item-footer-2-->
+
+			<div class="item-footer-3">
+				sdf
+			</div><!--item-footer-3-->
+			
+		</div><!--container>
+	</footer>
+
+
+	<!--AQUI TERMINA O FOOTER-->
 
 
 
