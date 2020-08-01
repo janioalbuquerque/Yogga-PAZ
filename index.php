@@ -9,38 +9,38 @@
 </head>
 <body>
 
-	<!--AQUI COMEÇA A NAVBAR-->
+	
 
 	<input id="bt_menu" type="checkbox" name="">
 	<label for="bt_menu">&#9776;</label>
 
 	<div><nav class="menu">
 		
-		<a class="logo" href="">Yogga<span>&PAZZ</span></a>
+		<a class="logo" href="#">Yogga<span>&PAZ</span></a>
 		
 		<ul>
-			<li><a href="">Home</a></li>
-			<li><a href="">Serviços</a>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Serviços</a>
 				<ul>
-					<li><a href="">Criação de Sites</a></li>
-					<li><a href="">Arte Visual</a></li>
+					<li><a href="#">Yogga</a></li>
+					<li><a href="#">Meditação</a></li>
 				</ul>
 			</li>
-			<li><a href="">Cursos</a>
+			<li><a href="#">Cursos</a>
 				<ul>
-					<li><a href="">Java</a></li>
-					<li><a href="">Photoshop</a></li>
-					<li><a href="">HTML/CSS</a></li>
+					<li><a href="#">Iniciante</a></li>
+					<li><a href="#">Intermediario</a></li>
+					<li><a href="#">Avançado</a></li>
 				</ul>
 			</li>
-			<li><a href="">Contatos</a></li>
+			<li><a href="#">Contatos</a></li>
 		</ul>
 	</nav></div>
 
 
-	<!--AQUI TERMINA A NAVBAR-->
+	
 
-	<!--AQUI COMEÇA A SESSÃO 1-->
+	
 
 	<section class="section-1">
 		<div class="container">
@@ -87,9 +87,7 @@
 
 
 
-	<!--AQUI TERMINA A SESSÃO 1-->
-
-	<!--AQUI COMEÇA A SESSÃO 2-->
+	
 
 	<section class="section-2">
 		<div class="container">
@@ -119,9 +117,7 @@
 
 
 
-	<!--AQUI TERMINA A SESSÃO 2-->
-
-	<!--AQUI COMEÇA A SESSÃO 3-->
+	
 
 	<section class="section-3">
 		<div class="container">
@@ -151,9 +147,7 @@
 
 
 
-	<!--AQUI TERMINA A SESSÃO 3-->
 
-	<!--AQUI COMEÇA O FOOTER-->
 
 
 	<footer>
@@ -161,9 +155,9 @@
 			<div class="item-footer-1">
 
 				<h2>Quem somos</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit arcu, tristique quis pharetra sed, egestas non tellus. Ut lobortis faucibus risus, vel condimentum lacus aliquam ut. Ut quis felis ac ipsum sagittis pretium. Fusce vel ornare elit. Suspendisse potenti. Nam nunc odio, mollis in elementum eu, vulputate ac ante. Aliquam dui odio, tempor vitae augue a, hendrerit laoreet tortor..</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit arcu, tristique quis pharetra sed, egestas non tellus. Ut lobortis faucibus risus, vel condimentum lacus aliquam ut. Ut quis felis ac ipsum sagittis pretium. Fusce vel ornare elit. Suspendisse potenti...</p>
 
-				<a href="">Saiba mais</a>
+				<a href="#">Saiba mais</a>
 				
 			</div><!--item-footer-1-->
 
@@ -184,17 +178,18 @@
 					<p>Telefone</p>
 					<input style="width: 50px;" type="text" name="ddd" placeholder="DDD" onkeypress='return event.charCode >= 48 && event.charCode <= 57'> <input type="text" name="fone" placeholder="999999999" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
 
-</input>
+					
 					<p>Sua Mensagem</p>
 					<textarea></textarea>
 				</form>
 			</div><!--item-footer-3-->
 			
 		</div><!--container-->
+		
 	</footer>
 
 
-	<!--AQUI TERMINA O FOOTER-->
+	
 
 
 
