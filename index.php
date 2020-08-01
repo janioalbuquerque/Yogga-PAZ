@@ -181,6 +181,7 @@
 					
 					<p>Sua Mensagem</p>
 					<textarea></textarea>
+					<input type="submit" value="Enviar">
 				</form>
 			</div><!--item-footer-3-->
 			

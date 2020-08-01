@@ -375,6 +375,7 @@
 		footer .container .item-footer-1 a {
 			padding: 15px;
 
+
 		}
 
 
@@ -414,13 +415,16 @@
 
 		footer .container .item-footer-3 textarea {
 			min-width: 300px;
-			min-height: 80px;
+			min-height: 60px;
 			resize: none;
 			outline: none;
 			border: 1px solid #ccc;
 			border-radius: 5px;
 		}
-
+		
+		footer .container .item-footer-3 input[type=submit] {
+			width: 120px;
+		}
 		
 
 		
@@ -572,6 +576,11 @@
 			footer .container .item-footer-2,
 			footer .container .item-footer-3 {
 				width: 100%;
+				
+			}
+
+			footer .container .item-footer-1{
+			
 			}
 
 
